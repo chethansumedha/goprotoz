@@ -404,6 +404,38 @@ $(document).ready(function() {
       }
     })
   })
+
+
+  $(document).ready(function() {
+    $('.owl-carousel5111').owlCarousel({
+      loop: true,
+      nav: true,
+      dots: true,
+      //Autoplay
+      autoplay: true,
+      autoplayTimeout: 5000,
+      stopOnHover : false,
+      margin: 10,
+      responsiveClass: true,
+      responsive: {
+        0:{
+          items:1
+        },
+        600:{
+            items:1
+        },            
+        960:{
+            items:1
+        },
+        1200:{
+            items:1,
+            nav: true,
+            dots: true,
+            loop: true
+        }
+      }
+    })
+  })
   // owl.on('mousewheel', '.owl-stage', function (e) {
   //     if (e.deltaY>0) {
   //         owl.trigger('next.owl');

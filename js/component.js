@@ -18,7 +18,7 @@ $(document).ready(function() {
  // Hide header on scroll down
  var didScroll;
  var lastScrollTop = 0;
- var delta = 0;
+ var delta = -200;
  var navbarHeight = $('.header').outerHeight();
 
  $(window).scroll(function(event){
@@ -76,10 +76,24 @@ $(document).ready(function() {
 });	
 
 
+// hamburger add class and remove class
+$("document").ready(function(){
+	$(".closebtn").click(function(){
+	  $(".overlay-content").hide(200);
+	  $(".newhamburger").removeClass('active');
+	});
+  });
+  $("document").ready(function(){
+	$(".hamburger").click(function(){
+	  $(".overlay-content").show();
+	  $(".newhamburger").addClass('active');
+	});
+  });
+
 
 // hamburger
 // $(document).ready(function() {
-	function openNav(){document.getElementById("myNav").style.width="100%"}
+	function openNav(){document.getElementById("myNav").style.width="35%"}
 	function closeNav(){document.getElementById("myNav").style.width="0%"}
 // });
 
