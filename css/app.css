@@ -6727,13 +6727,15 @@ html {
   font-family: "Poppinsmedium";
   font-size: 15px;
   font-weight: 500;
-  color: #737373; }
+  color: #737373;
+  padding-top: 4px; }
   .footernew p a {
     padding: 0; }
 .footernew .socialmed {
   text-align: right; }
 .footernew .mobilenum {
-  border-right: 1px solid #eae6e6; }
+  border-right: 1px solid #eae6e6;
+  padding-top: 4px; }
 
 .newcpy p {
   display: inline-block;
@@ -6960,7 +6962,8 @@ html {
     border-bottom: 1px solid #ccc;
     position: relative;
     resize: none;
-    overflow: hidden; }
+    overflow: hidden;
+    min-height: 30px !important; }
     .newcontact #contact-form .field-group .inputgroup textarea ::-webkit-scrollbar {
       display: none; }
   .newcontact #contact-form .field-group .inputgroup.active label {
@@ -7183,6 +7186,15 @@ html {
 
 .newend {
   background: #fbfbfb; }
+  .newend h2 {
+    color: #253976;
+    font-family: "Poppinsbold";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    padding-bottom: 40px;
+    text-align: left;
+    line-height: 50px; }
   .newend .panel-default > .panel-heading {
     color: #333;
     background-color: transparent;
@@ -7589,6 +7601,20 @@ html {
     line-height: 1.38; }
   .newabout1 p {
     color: #253976; }
+  .newabout1 .btn {
+    background-color: #fff;
+    border-radius: 133px;
+    color: #253976;
+    border: 1px solid #61cbe3;
+    padding: 8px 30px 7px 30px !important;
+    margin-left: 0px;
+    margin-top: 20px;
+    transition: 0.5s; }
+    .newabout1 .btn:hover {
+      background-color: #4961a9;
+      border-color: #4961a9;
+      color: #fff;
+      transition: 0.5s; }
 
 .newteam1 .container-fluid {
   padding: 0 200px; }
@@ -7679,10 +7705,22 @@ html {
   text-align: center; }
   .whatspl1 h2 a {
     font-family: "Poppinsmedium";
-    color: #253976;
+    color: #fff;
     transition: 0.5s;
     margin-left: 12px;
-    text-decoration: underline; }
+    text-decoration: none;
+    font-size: 16px;
+    background: #253976;
+    padding: 10px 20px;
+    border-radius: 31px;
+    vertical-align: text-bottom;
+    /* margin-top: -56px; */
+    display: inline-block;
+    margin-left: 40px; }
+    .whatspl1 h2 a:hover {
+      background-color: #4961a9 !important;
+      border-color: #4961a9 !important;
+      color: #fff !important; }
 
 .newvision1 h2 {
   color: #253976; }
@@ -7720,6 +7758,32 @@ html {
     color: #fff;
     padding-top: 15px; }
 
+.abouttwo .beforeafter {
+  background-color: #eaeaea; }
+  .abouttwo .beforeafter h2 {
+    text-align: center !important;
+    padding-bottom: 30px !important; }
+.abouttwo .carousel-control.left, .abouttwo .carousel-control.right {
+  background: none;
+  width: 0; }
+.abouttwo .carousel-indicators {
+  bottom: -102px; }
+.abouttwo .carousel-indicators li {
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #2c2f76;
+  border: 1px solid #fff;
+  border-radius: 0;
+  opacity: 0.3; }
+  .abouttwo .carousel-indicators li.active {
+    width: 20px;
+    height: 5px;
+    opacity: 1;
+    background-color: #2c2f76; }
 .abouttwo h2 {
   font-family: "Poppinssemibold";
   font-size: 36px;
@@ -7781,6 +7845,55 @@ html {
 .abouttwo .designsec h2 {
   padding-bottom: 25px;
   padding-top: 30px; }
+.abouttwo .designsec h4 {
+  font-family: "Poppinssemibold";
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+  color: #1a1a1a; }
+.abouttwo .designsec .font {
+  font-family: "Poppinsregular";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #7b7b7b;
+  display: block;
+  padding-bottom: 10px; }
+.abouttwo .designsec .font1 {
+  font-family: "Poppinsregular";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #2c2f76;
+  display: block; }
+.abouttwo .designsec .font3 {
+  font-family: "Poppinsregular";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #7b7b7b;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 70px; }
+.abouttwo .designsec .font4 {
+  list-style: none;
+  padding-left: 0; }
+  .abouttwo .designsec .font4 li {
+    font-family: "Poppinssemibold";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #2c2f76;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 30px; }
+    .abouttwo .designsec .font4 li:before {
+      position: unset; }
 
 .newpage1 .hamburger {
   z-index: 99999999999;
@@ -7819,6 +7932,271 @@ html {
   vertical-align: middle;
   width: 100%;
   height: 85vh; }
+
+.prevnxt {
+  background: #f8f8f8;
+  padding: 30px 0;
+  margin-top: 60px; }
+  .prevnxt .prevbox {
+    text-align: right;
+    padding-right: 45%;
+    border-right: 1px solid rgba(39, 0, 255, 0.31); }
+    .prevnxt .prevbox p {
+      opacity: 0.7;
+      font-family: "Poppinsmedium";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.8;
+      color: #393939; }
+    .prevnxt .prevbox h6 {
+      font-family: "Poppinsmedium";
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+      color: #ed1d28; }
+      .prevnxt .prevbox h6 svg {
+        width: 35.2px;
+        height: 17.1px;
+        fill: #ed1d28; }
+  .prevnxt .nxtbox {
+    text-align: left;
+    padding-left: 40%; }
+    .prevnxt .nxtbox p {
+      opacity: 0.7;
+      font-family: "Poppinsmedium";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.8;
+      color: #393939; }
+    .prevnxt .nxtbox h6 {
+      font-family: "Poppinsmedium";
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+      text-align: left;
+      color: #4527eb; }
+      .prevnxt .nxtbox h6 svg {
+        width: 35.2px;
+        height: 17.1px;
+        fill: #4527eb; }
+
+.projectbanner1 {
+  background: url(../images/project3.png) right 155px no-repeat #4527eb;
+  background-size: 50%; }
+
+.projectbanner2 {
+  background: url(../images/project12.png) right 155px no-repeat #d8bf45;
+  background-size: 100%; }
+
+.designsec strong {
+  color: #000; }
+
+.pb-3 {
+  padding-bottom: 30px; }
+
+.pt-3 {
+  padding-top: 30px; }
+
+.pb-2 {
+  padding-bottom: 20px; }
+
+.pt-2 {
+  padding-top: 20px; }
+
+.newperks h2 {
+  text-align: left;
+  color: #253976; }
+.newperks h3 {
+  font-size: 20px !important; }
+.newperks .visionbox {
+  text-align: left;
+  min-height: 260px;
+  box-shadow: 0 9px 11px 0 rgba(19, 23, 60, 0.06); }
+
+.newexplore {
+  background: #fff; }
+  .newexplore h2 {
+    color: #253976;
+    font-family: "Poppinsbold";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    padding-bottom: 40px;
+    text-align: left;
+    line-height: 50px; }
+  .newexplore .explore-box {
+    box-shadow: unset;
+    margin-top: 15px;
+    padding: 10px; }
+    .newexplore .explore-box .explore-img {
+      margin-right: 10px; }
+      .newexplore .explore-box .explore-img img {
+        margin-top: -9px; }
+    .newexplore .explore-box h3 {
+      font-family: "Poppinssemibold";
+      color: #253976;
+      font-size: 22px; }
+    .newexplore .explore-box p {
+      font-family: "Poppinsregular";
+      font-size: 15px;
+      line-height: 1.67;
+      color: #737373;
+      padding-left: 40px; }
+
+.newend1 {
+  background: #fff; }
+  .newend1 .panel {
+    border-radius: 4px;
+    border: solid 1px rgba(37, 57, 118, 0.14);
+    box-shadow: unset; }
+  .newend1 h4 .span1 {
+    font-family: "Poppinsmedium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.85;
+    letter-spacing: 0.91px;
+    color: #253976;
+    width: 45%;
+    display: inline-block; }
+  .newend1 h4 .span2 {
+    font-family: "Poppinsmedium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.64;
+    letter-spacing: 0.64px;
+    color: #253976;
+    width: 25%;
+    display: inline-block;
+    opacity: 0.4;
+    text-transform: uppercase; }
+  .newend1 h4 .span3 {
+    font-family: "Poppinsmedium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.64;
+    letter-spacing: 0.64px;
+    color: #253976;
+    width: 25%;
+    display: inline-block;
+    opacity: 0.4;
+    text-transform: uppercase; }
+  .newend1 .panel-body {
+    padding: 35px;
+    padding-top: 10px; }
+    .newend1 .panel-body .btn {
+      background-color: #253976;
+      border-radius: 133px;
+      color: #fff;
+      padding: 8px 30px 7px 30px !important;
+      margin-left: 15px;
+      transition: 0.5s; }
+      .newend1 .panel-body .btn:hover {
+        background-color: #4961a9;
+        border-color: #4961a9;
+        color: #fff;
+        transition: 0.5s; }
+    .newend1 .panel-body .resume {
+      display: inline-block;
+      font-size: 15px;
+      color: #737373;
+      padding-bottom: 0;
+      margin-top: 40px;
+      margin-left: 20px; }
+      .newend1 .panel-body .resume a {
+        color: #42c4e2; }
+    .newend1 .panel-body ul {
+      margin: 0;
+      list-style: none;
+      padding: 0; }
+      .newend1 .panel-body ul li {
+        padding: 0px 0 10px 0;
+        border-bottom: 0px solid lightgrey;
+        width: 100%;
+        display: -webkit-inline-box;
+        font-family: "Poppinsregular";
+        color: #737373;
+        font-size: 14px; }
+        .newend1 .panel-body ul li span {
+          display: block;
+          width: 90%; }
+        .newend1 .panel-body ul li .dot {
+          width: 5px;
+          height: 5px;
+          vertical-align: middle;
+          color: #000;
+          background: #737373;
+          display: block;
+          border-radius: 50%;
+          margin: 7px 8px 0 0; }
+      .newend1 .panel-body ul .pre {
+        padding: 25px 0 20px 0; }
+      .newend1 .panel-body ul .job-description {
+        font-family: "Poppinsmedium";
+        color: #253976;
+        font-size: 17px; }
+  .newend1 .panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "";
+    padding-right: 5px;
+    font-size: 10px;
+    background: url(../images/minus.png) 0 0 no-repeat;
+    height: 60px;
+    width: 50px; }
+  .newend1 .panel-title > a.collapsed:before {
+    float: right !important;
+    content: "";
+    font-size: 10px;
+    background: url(../images/plus.png) 0 0 no-repeat;
+    height: 60px;
+    width: 50px; }
+
+.newcareer1 {
+  background: url(../images/careers-hero.png) 0 0 no-repeat;
+  background-position: top 54% right;
+  background-size: 81%; }
+  .newcareer1 p {
+    color: #434242; }
+
+.newprocess h1 {
+  font-family: "Poppinsbold";
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 1.67px;
+  color: #253976;
+  padding-top: 20vh; }
+.newprocess p {
+  font-family: "Poppinsregular";
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #253976;
+  text-align: right; }
+  .newprocess p span {
+    max-width: 50%;
+    display: inline-block;
+    text-align: left; }
+
+.processbar h2 {
+  font-family: "Poppinsbold";
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  color: #253976;
+  padding-bottom: 15px; }
+.processbar p {
+  font-family: "Poppinsregular";
+  font-size: 15px;
+  line-height: 1.73;
+  letter-spacing: 0.47px;
+  color: #737373; }
+.processbar li {
+  font-family: "Poppinsregular";
+  font-size: 15px;
+  line-height: 1.73;
+  letter-spacing: 0.47px;
+  color: #737373; }
 
 /*
 ====================================================
@@ -8020,6 +8398,29 @@ html {
 
   .blog1 .recentblog {
     margin-top: 167px; }
+
+  .footernew .socialmed a {
+    padding: 0px 15px; }
+
+  .projectbanner {
+    background: url(../images/project1.png) right center no-repeat #ff4c83;
+    background-size: 50%; }
+
+  .abouttwo .projectsec {
+    padding: 15px 10px 15px 10px; }
+
+  .abouttwo .challengesec p, .abouttwo p {
+    max-width: 100%; }
+
+  .prevnxt .prevbox {
+    padding-right: 10%; }
+
+  .prevnxt .nxtbox {
+    padding-left: 4%; }
+
+  .projectbanner1 {
+    background: url(../images/project3.png) right center no-repeat #4527eb;
+    background-size: 50%; }
 
   .newcontact {
     background: url(../images/illustration.png) right bottom no-repeat #f8faff;
@@ -8386,6 +8787,116 @@ html {
 
   .blog1 .recentblog {
     margin-top: 40px; }
+
+  .newexplore h2 {
+    line-height: 40px;
+    font-size: 29px;
+    text-align: center; }
+
+  .newend h2 {
+    line-height: 40px;
+    font-size: 29px;
+    text-align: center; }
+
+  .newend1 h4 .span1 {
+    line-height: 1.35;
+    width: 80%; }
+
+  .newend1 h4 .span2 {
+    width: 100%; }
+
+  .newend1 h4 .span3 {
+    width: 100%; }
+
+  .newend1 .panel-title > a.collapsed:before {
+    background: url(../images/plus.png) 0 16px no-repeat; }
+
+  .newend1 .panel-body {
+    padding: 15px;
+    padding-top: 10px; }
+
+  .newperks .visionbox {
+    margin: 20px 0; }
+
+  .newperks h2 {
+    text-align: center; }
+
+  .newhome .navbar-default {
+    width: 70%;
+    padding-top: 10px; }
+
+  .newhome .navbar {
+    margin-bottom: 10px; }
+
+  .header svg {
+    width: 140px; }
+
+  .abouttwo .carousel-indicators {
+    bottom: -34px; }
+
+  .abouttwo .designsec h4 {
+    line-height: 35px;
+    font-size: 22px; }
+
+  .abouttwo .designsec .font4 li {
+    display: block; }
+
+  .abouttwo h2 {
+    font-size: 26px; }
+
+  .abouttwo .designsec h2 {
+    padding-bottom: 15px; }
+
+  .abouttwo .designsec .font1 {
+    font-size: 20px; }
+
+  .abouttwo .designsec .font3 {
+    padding-top: 17px; }
+
+  .prevnxt .prevbox {
+    padding-right: 10%;
+    text-align: left;
+    border-right: 0px solid rgba(39, 0, 255, 0.31); }
+
+  .prevnxt .nxtbox {
+    padding-left: 0;
+    padding-top: 20px; }
+
+  .prevnxt .prevbox h6 {
+    font-size: 22px; }
+
+  .prevnxt .nxtbox h6 {
+    font-size: 22px; }
+
+  .projectbanner {
+    background: url(../images/project11.png) center center no-repeat #ff4c83;
+    background-size: 102%;
+    height: auto;
+    background-position: center 142px; }
+
+  .projectbanner1 {
+    background: url(../images/project3.png) center top 130px no-repeat #4527eb;
+    background-size: 102%;
+    height: auto; }
+
+  .projectbanner h1 {
+    font-size: 30px;
+    line-height: 1.3;
+    padding-top: 28vh;
+    padding-top: 311px; }
+
+  .whatspl1 h2 a {
+    display: block;
+    margin-left: 0;
+    width: fit-content;
+    margin: 26px auto 0;
+    padding: 0px 25px; }
+
+  .whatspl1 h2 {
+    font-size: 27px;
+    text-align: center;
+    color: #737373;
+    line-height: 30px; }
 
   .newcontact h2 {
     padding-top: 60px;
@@ -8757,7 +9268,7 @@ html {
     margin-top: -39px !important; }
 
   .newhome .hamburger {
-    margin-top: -62px; }
+    margin-top: -47px; }
 
   .newbanner .ceo-insight h6 {
     font-size: 16px !important; }

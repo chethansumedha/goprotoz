@@ -46,12 +46,12 @@ if(mail($to, $subject, $message, $headers)){
 
  echo '<script language="javascript">';
 
-echo 'window.location.href="contact.html?msg=1#top";';
+echo 'window.location.href="thank-you.html";';
 echo '</script>';
 }else{
      echo '<script language="javascript">';
 
-echo 'window.location.href="contact.html?msg=2#top";';
+echo 'window.location.href="thank-you.html";';
 echo '</script>';
 }
 ?>
