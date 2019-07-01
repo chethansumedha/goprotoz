@@ -113,7 +113,7 @@ $(document).ready(function(){
     $("#job-open1").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top-70},800,function(){window.location.hash=hash})}})
 });
 $(document).ready(function(){
-    $("#menu10,#menu11,#menu12,#menu13,#menu14,#menu111").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top-0},800,function(){window.location.hash=hash})}})
+    $("#menu10,#menu11,#menu12,#menu13,#menu14,#menu111,#click").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top-0},800,function(){window.location.hash=hash})}})
 });
 // about-page
 $(document).ready(function(){
