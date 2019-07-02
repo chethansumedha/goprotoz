@@ -8849,10 +8849,15 @@ html{
 .newoverlay{
 	left: unset;
 	right:0;
+	.overlay-content{
+	    padding-top: 3vh;
+	}
 }
 .newhamburger{
 	hr{
 		margin-left: 27px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	ul{
 		list-style: none;
@@ -9166,7 +9171,7 @@ html{
 		width: 0;
 	}
 	.carousel-indicators {
-		bottom: -102px;
+		bottom: -56px;
 	}
 	.carousel-indicators li {
 		display: inline-block;
@@ -9665,6 +9670,12 @@ html{
 		letter-spacing: 1.67px;
 		color: #253976;
 		padding-top: 20vh;
+		span{
+			--color: 1;
+			--stroke-width: 4px;
+			color: white;
+			text-shadow: 0 0 1px #253976, -1px -1px 0 #253976, 1px -1px 0 #253976, -1px 1px 0 #253976, 1px 1px 0 #253976;
+		}
 	}
 	p{
 		font-family: "Poppinsregular";
@@ -9672,9 +9683,10 @@ html{
 		line-height: 2;
 		letter-spacing: 1px;
 		color: #253976;
-		text-align: right;
+		text-align: left;
+		padding-top: 22vh;
 		span{
-			max-width: 50%;
+			max-width: 100%;
 			display: inline-block;
 			text-align: left;
 		}
@@ -9695,11 +9707,12 @@ html{
 		line-height: 1.73;
 		letter-spacing: 0.47px;
 		color: #737373;
+		padding-bottom: 20px;
 	}
 	li{
 		font-family: "Poppinsregular";
 		font-size: 15px;
-		line-height: 1.73;
+		line-height: 2.3;
 		letter-spacing: 0.47px;
 		color: #737373;
 	}
@@ -9862,6 +9875,45 @@ html{
 		text-align: left;
     }
 }
+.projectbanner5{
+	background: url(../images/banner-emflux.png) right 124px no-repeat #3a67fd;
+    background-size: 35%;
+}
+.projectbanner6{
+	background: url(../images/banner-unify.png) right 124px no-repeat #f3b48c;
+    background-size: 35%;
+}
+.projectbanner7{
+	background: url(../images/itversity-banner.png) right 124px no-repeat #32d2f5;
+    background-size: 35%;
+}
+.processswiper{
+	.tableCell {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+	img{
+		max-width: 70%;
+	}
+}
+.processbar{
+	.tablecell {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+	ul{
+		padding-left: 18px;
+	}
+}
+#myNav{
+	::-webkit-scrollbar { 
+		display: none; 
+	}
+}
 
 
 
@@ -9914,6 +9966,9 @@ html{
 
 
 @media only screen and (min-width : 1500px) and (max-width : 2000px) {
+	.processbar h2{
+		padding-top: 132px;
+	}
 .overlay .overlay-content h3 {
     font-size: 180px;
     margin-top: -70px;
@@ -10097,6 +10152,19 @@ html{
 		margin-top: 167px;
 	}
 // new page css
+.newhamburger.active {
+    width: 65% !important;
+}
+.newprocess p span br{
+	display: none;
+}
+.newprocess p{
+	text-align: center;
+	// padding-top: 30px;
+}
+.newprocess p span{
+	max-width: 100%;
+}
 .servicesub .serviceimg1 {
     max-width: 80%;
     margin-top: 119px;
@@ -10535,6 +10603,40 @@ html{
 		margin-top: 40px;
 	}
 // new home page css
+.newoverlay .overlay-content {
+    padding-top: 0vh;
+}
+.newprocess img{
+	max-width: 60%;
+	padding-top: 17px;
+}
+.processswiper ul{
+	// display:none;
+}
+.processswiper img {
+    max-width: 100%;
+}
+.processbar h2{
+	font-size: 28px;
+	padding-top: 45px;
+}
+.processbar p, .processbar li{
+	font-size: 13px;
+}
+.processswiper{
+	padding-top: 100px;
+}
+.newprocess h1{
+	font-size: 53px;
+}
+.newprocess p{
+	text-align: center;
+	padding-top: 30px;
+	line-height: 1.8;
+}
+.newprocess p span{
+	max-width: 100%;
+}
 .newservice{
 	margin-bottom: 0px;
 	background:unset!important;
