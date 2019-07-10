@@ -8500,6 +8500,104 @@ html {
 .site-map {
   padding-top: 150px !important; }
 
+.newblog1 {
+  padding-top: 150px !important; }
+
+.newblog {
+  background: #fff;
+  padding-bottom: 60px; }
+  .newblog h2 {
+    font-family: "Poppinsmedium";
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: #253976;
+    margin-bottom: 0; }
+    .newblog h2:before {
+      display: none; }
+  .newblog h3 {
+    font-family: "Poppinsmedium";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 1px;
+    color: #253976;
+    padding-bottom: 10px;
+    padding-top: 40px; }
+  .newblog h6 {
+    font-family: "Poppinsmedium";
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #253976;
+    padding: 30px 0; }
+  .newblog p {
+    font-family: "Poppinsmedium";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.19;
+    letter-spacing: normal;
+    color: #737373; }
+  .newblog b {
+    font-size: 16px;
+    color: #161616; }
+  .newblog li {
+    font-size: 16px !important;
+    color: #161616 !important;
+    font-weight: 600; }
+  .newblog .sticky1 {
+    position: fixed;
+    top: 0;
+    left: 104px; }
+  .newblog .fixme {
+    display: inline-block;
+    text-align: right;
+    padding-top: 100px; }
+  .newblog .blog-social li {
+    list-style: none;
+    margin-bottom: 8px; }
+    .newblog .blog-social li i {
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 36px;
+      -moz-border-radius: 36px;
+      -webkit-border-radius: 36px;
+      display: table-cell;
+      border: 1px solid #9d9d9d;
+      opacity: 0.4; }
+
+.newrelatedblog h2 {
+  font-family: "Poppinsmedium";
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #161616; }
+  .newrelatedblog h2:before {
+    display: none; }
+.newrelatedblog h5 {
+  font-family: "Poppinsmedium" !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 1.67 !important;
+  letter-spacing: 0.67px !important;
+  color: #434242 !important;
+  min-height: 150px; }
+.newrelatedblog p {
+  font-family: "Poppinsregular" !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.33px;
+  color: #929090 !important; }
+.newrelatedblog .content {
+  box-shadow: 0 2px 8px 0 rgba(192, 192, 192, 0.1);
+  border-radius: 0 0 4px 4px; }
+
 /*
 ====================================================
 	responsive-css
@@ -8703,6 +8801,12 @@ html {
 
   .blog1 .recentblog {
     margin-top: 167px; }
+
+  .newservice1 h1 br {
+    display: none; }
+
+  .newblog h2 br {
+    display: none; }
 
   .newservice1 {
     background: none !important; }
@@ -9123,6 +9227,19 @@ html {
 
   .blog1 .recentblog {
     margin-top: 40px; }
+
+  .newblog .sticky1 {
+    position: unset !important; }
+
+  .newblog .fixme {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-left: 0; }
+
+  .newblog .blog-social li {
+    display: inline-block;
+    margin: 0 10px; }
 
   .workslist1 .owl-carousel h3 {
     font-size: 20px;

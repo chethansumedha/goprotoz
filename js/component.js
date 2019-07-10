@@ -5,6 +5,29 @@ $(document).ready(function() {
 });
 
 
+	$(document).ready(function(){
+		var navWrap = $('#navWrap'),
+          nav = $('.nav1'),
+          startPosition = navWrap.offset().top,
+          stopPosition = $('#stopHere').offset().top - nav.outerHeight();
+      
+      $(document).scroll(function () {
+          //stick nav to top of page
+          var y = $(this).scrollTop()
+          
+          if (y > startPosition) {
+              nav.addClass('sticky1');
+              if (y > stopPosition) {
+                  nav.css('top', stopPosition - y);
+              } else {
+                  nav.css('top', 0);
+              }
+          } else {
+              nav.removeClass('sticky1');
+          } 
+      });
+	})
+
 // sticky header
 $(document).ready(function() {
    (function(){'use strict';if($('.top-bar').length>0)
