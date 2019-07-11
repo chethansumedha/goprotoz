@@ -5,28 +5,9 @@ $(document).ready(function() {
 });
 
 
-	$(document).ready(function(){
-		var navWrap = $('#navWrap'),
-          nav = $('.nav1'),
-          startPosition = navWrap.offset().top,
-          stopPosition = $('#stopHere').offset().top - nav.outerHeight();
-      
-      $(document).scroll(function () {
-          //stick nav to top of page
-          var y = $(this).scrollTop()
-          
-          if (y > startPosition) {
-              nav.addClass('sticky1');
-              if (y > stopPosition) {
-                  nav.css('top', stopPosition - y);
-              } else {
-                  nav.css('top', 0);
-              }
-          } else {
-              nav.removeClass('sticky1');
-          } 
-      });
-	})
+	
+
+
 
 // sticky header
 $(document).ready(function() {
@@ -36,6 +17,9 @@ $(document).ready(function() {
 	$(window).resize(function(){if($(window).width()>1000){$('.header-section').removeAttr('style')}});if($(window).scrollTop()>t){$('.header-section').addClass('off').addClass('pin-start')}else{$('.header-section').removeClass('off').removeClass('pin-start')}
 	$('.menu-icon').click(function(){if($('#menu').hasClass('in')){$('.header-section').addClass('off').removeClass('woff').removeAttr('style');if($(window).scrollTop()>t){if(!$('.header-section').hasClass('woff')){$('.header-section').addClass('pin-start').addClass('off')}}else{$('.header-section').removeClass('pin-start').removeClass('off')}}else{k=$(window).scrollTop();$('.header-section').removeClass('off').addClass('woff').css({top:$(window).scrollTop()})}})})()
 });
+
+
+
 
 
  // Hide header on scroll down
