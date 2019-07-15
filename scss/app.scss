@@ -10400,7 +10400,17 @@ html{
 	}
 }
 
-
+.allproject{
+	height: 34px;
+    border-radius: 4px!important;
+    background-color: #0095ff!important;
+    color: #fff!important;
+    /* padding: 0!important; */
+    /* padding-bottom: 22px!important; */
+    float: right;
+    border: 0px !important;
+    padding: 7px 21px!important;
+}
 
 
 
@@ -10648,6 +10658,9 @@ html{
 		margin-top: 167px;
 	}
 // new page css
+.allproject{
+	float: unset;
+}
 .newblog .fixme {
     padding-top: 30px;
     width: 100%;
@@ -11125,6 +11138,9 @@ html{
 		margin-top: 40px;
 	}
 // new home page css
+.allproject{
+	margin-top: 0px!important;
+}
 .newworks3 p{
 	padding-bottom: 50px!important;
 }
