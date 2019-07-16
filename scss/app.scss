@@ -8540,10 +8540,10 @@ html{
 		width: 350px;
 		height: 428px;
 		border-radius: 10px;
-		width: 100%;
+		width: 95%;
 		text-align: center;
 		background: url(../images/works2-ogo.png) right 0 no-repeat #6ad475;
-		margin-bottom: 30px;
+		margin-bottom: 45px;
 		position: relative;
 		transition:0.5s;
 		background-size: 73%;
@@ -8553,7 +8553,7 @@ html{
 			}
 	}
 	.worksbg2{
-		background: url(../images/works2emflux.png) right top 20px no-repeat #5279fd;
+		background: url(../images/works2emflux.png) right top 50px no-repeat #5279fd;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8562,7 +8562,7 @@ html{
 		}
 	}
 	.worksbg3{
-		background: url(../images/works2-unify-goals.png) right top 20px no-repeat #f3b48c;
+		background: url(../images/works2-unify-goals.png) right top 50px no-repeat #f3b48c;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8571,7 +8571,7 @@ html{
 		}
 	}
 	.worksbg4{
-		background: url(../images/works2-itversity.png) right top 20px no-repeat #32d2f5;
+		background: url(../images/works2-itversity.png) right top 50px no-repeat #32d2f5;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8580,7 +8580,7 @@ html{
 		}
 	}
 	.worksbg5{
-		background: url(../images/works2-artone.png) right top 20px no-repeat #ff4c83;
+		background: url(../images/works2-artone.png) right top 50px no-repeat #ff4c83;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8598,7 +8598,7 @@ html{
 		}
 	}
 	.worksbg7{
-		background: url(../images/ugaan.png) right top 20px no-repeat #ee6f39;
+		background: url(../images/ugaan.png) right top 50px no-repeat #ee6f39;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8607,7 +8607,7 @@ html{
 		}
 	}
 	.worksbg8{
-		background: url(../images/works-gokhana2.png) right top 20px no-repeat #ffd880;
+		background: url(../images/works-gokhana2.png) right top 50px no-repeat #ffd880;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8616,7 +8616,7 @@ html{
 		}
 	}
 	.worksbg9{
-		background: url(../images/works-kognitive3.png) right top 20px no-repeat #16ab8f;
+		background: url(../images/works-kognitive3.png) right top 50px no-repeat #16ab8f;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -8625,7 +8625,7 @@ html{
 		}
 	}
 	.worksbg10{
-		background: url(../images/works-superx1.png) right top 20px no-repeat #137d89;
+		background: url(../images/works-superx1.png) right top 50px no-repeat #137d89;
 		background-size: 73%;
 		transition:0.5s;
 		&:hover{
@@ -10356,7 +10356,7 @@ html{
 	}
 	.newgokhana{
 		background: url(../images/newproject.png) center bottom no-repeat;
-		/* background-size: 100%; */
+		background-size: 70%;
 		height: 100%;
 	}
 	.newogo1{
@@ -10371,6 +10371,7 @@ html{
 	.newogo{
 		background: url(../images/newproject1.png) right bottom no-repeat;
 		height: 100%;
+		background-size: 77%;
 	}
 	.newsuperx1{
 		background: #7173fc; /* Old browsers */
@@ -10384,6 +10385,7 @@ html{
 	.newsuperx{
 		background: url(../images/newproject2.png) right bottom no-repeat;
 		height: 100%;
+		background-size: 83%;
 	}
 	.newkognitiv1{
 		background: #a986ff; /* Old browsers */
@@ -10397,21 +10399,31 @@ html{
 	.newkognitiv{
 		background: url(../images/newproject3.png) right bottom no-repeat;
 		height: 100%;
+		background-size: 83%;
 	}
 }
 
 .allproject{
-	height: 34px;
-    border-radius: 4px!important;
-    background-color: #0095ff!important;
-    color: #fff!important;
-    /* padding: 0!important; */
-    /* padding-bottom: 22px!important; */
+	height: 40px;
+    border-radius: 41px !important;
+    background-color: #0095ff !important;
+    color: #fff !important;
     float: right;
     border: 0px !important;
-    padding: 7px 21px!important;
+	padding: 10px 30px !important;
+	transition: 0.5s;
+    -webkit-transition: 0.5s;
+	&:hover{
+		background-color: #4961a9 !important;
+		border-color: #4961a9 !important;
+		color: #fff !important;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+	}
 }
-
+.newtestimonial .col-md-offset-2{
+	padding-left: 90px;
+}
 
 
 
@@ -10658,6 +10670,29 @@ html{
 		margin-top: 167px;
 	}
 // new page css
+.newworks3 .newgokhana{
+	background: url(../images/newproject.png) center bottom no-repeat;
+	background-size: 113%;
+	height: 100%;
+}
+.newworks3 .newsuperx{
+	background: url(../images/newproject2.png) right bottom no-repeat;
+	height: 100%;
+	background-size: 113% ;
+}
+.newworks3 .newogo{
+	background: url(../images/newproject1.png) right bottom no-repeat;
+	height: 100%;
+	background-size: 119%;
+}
+.newworks3 .newkognitiv{
+	background: url(../images/newproject3.png) right bottom no-repeat;
+	height: 100%;
+	background-size: 113%;
+}
+.newtestimonial .col-md-offset-2{
+	padding-left: 0px;
+}
 .allproject{
 	float: unset;
 }
@@ -11138,6 +11173,119 @@ html{
 		margin-top: 40px;
 	}
 // new home page css
+.worksbg1{
+	width: 350px;
+	height: 428px;
+	border-radius: 10px;
+	width: 95%;
+	text-align: center;
+	background: url(../images/works2-ogo.png) right 0 no-repeat #6ad475;
+	margin-bottom: 45px;
+	position: relative;
+	transition:0.5s;
+	background-size: 73%;
+		&:hover{
+			background-size: 80%;
+			transition:0.5s;
+		}
+}
+.workslist1 .worksbg2{
+	background: url(../images/works2emflux.png) right top 20px no-repeat #5279fd;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg3{
+	background: url(../images/works2-unify-goals.png) right top 20px no-repeat #f3b48c;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg4{
+	background: url(../images/works2-itversity.png) right top 20px no-repeat #32d2f5;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg5{
+	background: url(../images/works2-artone.png) right top 20px no-repeat #ff4c83;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg6{
+	background: url(../images/works2-easytruck.png) right top 0px no-repeat #4078ab;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg7{
+	background: url(../images/ugaan.png) right top 20px no-repeat #ee6f39;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg8{
+	background: url(../images/works-gokhana2.png) right top 20px no-repeat #ffd880;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg9{
+	background: url(../images/works-kognitive3.png) right top 20px no-repeat #16ab8f;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.workslist1 .worksbg10{
+	background: url(../images/works-superx1.png) right top 20px no-repeat #137d89;
+	background-size: 73%;
+	transition:0.5s;
+	&:hover{
+		background-size: 80%;
+		transition:0.5s;
+	}
+}
+.newworks3 .newgokhana{
+	background: url(../images/newproject.png) center bottom no-repeat;
+    background-size: 50%;
+}
+.newworks3 .newsuperx{
+	background: url(../images/newproject2.png) right bottom no-repeat;
+    background-size: 50%;
+}
+.newworks3 .newogo{
+	background: url(../images/newproject1.png) right bottom no-repeat;
+    background-size: 50%;
+}
+.newworks3 .newkognitiv{
+	background: url(../images/newproject3.png) right bottom no-repeat;
+    background-size: 50%;
+}
 .allproject{
 	margin-top: 0px!important;
 }
@@ -11460,6 +11608,7 @@ html{
 }
 .workslist1 .worksbg1{
 	height: 340px;
+	width:100%;
 }
 .newbanner .bannerfull img{
 	height: auto;
