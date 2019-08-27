@@ -2651,6 +2651,7 @@ html{
 .copyright{
 	background: #fbfbfb;
 	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
     padding-top: 20px;
 	p{
 		font-size: 12px;
@@ -6681,6 +6682,7 @@ html{
 		font-size: 11px;
 		color: #878787;
 		padding-bottom: 20px;
+		line-height: 18px;
 	}
 	.end-p{
 		padding-bottom: 0px;
@@ -8478,6 +8480,8 @@ html{
 		// margin-bottom: 10px;
 		font-family: 'poppinsregular';
 		color: #878787;
+		padding-bottom: 10px;
+		font-weight: 600;
 	}
 	.panel-title > a:before {
 		float: right !important;
