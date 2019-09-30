@@ -1,197 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-
-<url>
-  <loc>https://www.goprotoz.com/</loc>
-  <lastmod>2019-07-16T05:54:17+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/works.html</loc>
-  <lastmod>2019-07-15T13:41:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/about.html</loc>
-  <lastmod>2019-07-17T06:17:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/the-art-of-teaching-machines.html</loc>
-  <lastmod>2019-07-19T10:47:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/emotional-intelligence-quotient-design.html</loc>
-  <lastmod>2019-07-19T10:46:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/user-research.html</loc>
-  <lastmod>2019-07-19T10:47:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/contact.html</loc>
-  <lastmod>2019-07-11T07:00:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/sitemap.html</loc>
-  <lastmod>2019-07-16T06:15:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/terms.html</loc>
-  <lastmod>2019-07-11T07:07:09+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/privacy.html</loc>
-  <lastmod>2019-07-11T07:05:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/ui-ux-design-services.html</loc>
-  <lastmod>2019-07-11T07:54:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/ux-strategy-services.html</loc>
-  <lastmod>2019-07-11T07:54:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/ux-research-services.html</loc>
-  <lastmod>2019-07-11T07:54:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/ux-audit-services.html</loc>
-  <lastmod>2019-07-11T07:54:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/web-design-services.html</loc>
-  <lastmod>2019-07-11T07:54:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services/data-visualization-services.html</loc>
-  <lastmod>2019-07-11T07:54:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/process.html</loc>
-  <lastmod>2019-07-11T07:05:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/services.html</loc>
-  <lastmod>2019-07-11T07:06:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights.html</loc>
-  <lastmod>2019-07-19T10:46:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/career.html</loc>
-  <lastmod>2019-07-15T13:18:54+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/ar-and-vr-for-ux.html</loc>
-  <lastmod>2019-07-19T10:46:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/ai-driven-ux-design.html</loc>
-  <lastmod>2019-07-19T10:46:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/persuasive-design.html</loc>
-  <lastmod>2019-07-19T10:47:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/design-leadership.html</loc>
-  <lastmod>2019-07-19T10:46:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/design-thinking.html</loc>
-  <lastmod>2019-07-19T10:46:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/index.html</loc>
-  <lastmod>2019-07-16T05:54:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/what-is-enterprise-ux.html</loc>
-  <lastmod>2019-07-19T10:47:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/cognitive-overload.html</loc>
-  <lastmod>2019-07-19T10:46:56+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/desktop-vs-web-apps.html</loc>
-  <lastmod>2019-07-19T10:46:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/usability-testing.html</loc>
-  <lastmod>2019-07-19T10:47:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/product-design.html</loc>
-  <lastmod>2019-07-19T10:47:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/ecommerce-ux.html</loc>
-  <lastmod>2019-07-19T10:46:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/mobile-designs.html</loc>
-  <lastmod>2019-07-19T10:47:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/design-process.html</loc>
-  <lastmod>2019-07-19T10:46:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/enterprise-ux-design.html</loc>
-  <lastmod>2019-07-19T10:46:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/ux-for-ecommerce-design.html</loc>
-  <lastmod>2019-07-19T10:47:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.goprotoz.com/insights/ux-research-method.html</loc>
-  <lastmod>2019-07-19T10:47:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?><!--Generated by Screaming Frog SEO Spider 11.3-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.goprotoz.com/</loc>
+    <lastmod>2019-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/privacy.html</loc>
+    <lastmod>2019-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/terms.html</loc>
+    <lastmod>2019-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/user-research.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/sitemap.html</loc>
+    <lastmod>2019-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/process.html</loc>
+    <lastmod>2019-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/about.html</loc>
+    <lastmod>2019-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/the-art-of-teaching-machines.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/services.html</loc>
+    <lastmod>2019-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/emotional-intelligence-quotient-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/contact.html</loc>
+    <lastmod>2019-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/works.html</loc>
+    <lastmod>2019-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/career.html</loc>
+    <lastmod>2019-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ux-for-ecommerce-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/design-process.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/enterprise-ux-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/persuasive-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ux-writing-tips.html</loc>
+    <lastmod>2019-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/cognitive-overload.html</loc>
+    <lastmod>2019-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/desktop-applications-vs-web-apps-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/what-is-enterprise-ux.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ux-research-method.html</loc>
+    <lastmod>2019-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ecommerce-ux.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/design-thinking.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/usability-testing.html</loc>
+    <lastmod>2019-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/product-design.html</loc>
+    <lastmod>2019-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/design-leadership.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ai-driven-ux-design.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.goprotoz.com/insights/ar-and-vr-for-ux.html</loc>
+    <lastmod>2019-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
