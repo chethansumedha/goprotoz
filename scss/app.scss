@@ -7893,7 +7893,11 @@ html{
 		color: #737373;
 		padding-top: 4px;
 		a{
-			padding: 0;
+			padding: 3px 10px;
+			margin: 0 10px;
+			i{
+				font-size:20px;
+			}
 		}
 	}
 	.socialmed{
@@ -8045,7 +8049,7 @@ html{
 		width: 50%;
 		z-index: 0;	
 		background: url(../images/illustration.png) right bottom no-repeat #f8faff;
-		background-size: 42%;
+		background-size: 33%;
 	}
 	.tablecenter{
 		display: table-cell;
@@ -8068,7 +8072,7 @@ html{
 		color: #253976;
 		text-align: left;
 		padding-bottom: 0;
-		padding-top: 35px;
+		padding-top: 0px;
 	}
 	label{
 		opacity: 0.9;
@@ -8121,22 +8125,39 @@ html{
 		margin-bottom: 40px;
 		h3{
 			font-family: "Poppinsmedium";
-			font-size: 15px;
+			font-size: 18px;
 			font-weight: 500;
 			color: #253976;
 			padding-bottom: 15px;
+		}
+		h4{
+			font-size: 14px;
+			font-weight: 300;
+			color: #253976;
+			padding-bottom: 15px;
+		}
+		h5{
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 1.86;
+			color: #253976;
+			border-top: solid 1px rgba(50,60,70,0.1);
+			padding-top: 15px;
+			margin-top: 15px;
+			max-width: 80%;
+			font-family: 'montserratregular';
 		}
 		p{
 			font-family: "Poppinsregular";
 			font-size: 15px;
 			font-weight: 500;
 			letter-spacing: 0.4px;
-			color: #434242;
+			color: #07a2c6;
 			margin-bottom: 5px;
 			a{
 				font-weight: 300;
 				letter-spacing: 1px;
-				color: #3cc4e3;
+				color: #0eabcf;
 			}
 		}
 	}
@@ -8940,6 +8961,10 @@ html{
 	.mainnav2{
 		li{
 			display: inline-block;
+			// border-right: 1px solid #eee;
+			&:last-child{
+				border-right: 0px solid #eee;
+			}
 			a{
 				opacity: 0.6;
 				font-family: 'Poppinsregular';
@@ -8950,7 +8975,10 @@ html{
 				padding: 0px 0px;
 				margin-left: 30px;
 				padding-right: 30px;
-				border-right: 1px solid #eee;
+				border-right: 0px solid #eee;
+				i{
+					font-size:20px;
+				}
 				&:after{
 					content: "";
 					position: absolute;
@@ -8961,13 +8989,13 @@ html{
 					background: #61Cbe3;
 					transition: 0.5s;
 				}
-				&:hover{
-					&:after{
-						content: "";
-						width: 74%;
-						transition: 0.5s;
-					}
-				}
+				// &:hover{
+				// 	&:after{
+				// 		content: "";
+				// 		width: 74%;
+				// 		transition: 0.5s;
+				// 	}
+				// }
 			}
 		}
 		.lastchild a{
@@ -11013,6 +11041,7 @@ html{
 	.newpage1 .newclient p{
 		max-width: 80%;
 	}
+	
 	.newpage1 .insightsnew .insightsub{
 		width: 100%;
 	}
@@ -11164,6 +11193,10 @@ html{
 .newcontact{
 	background: url(../images/illustration.png) right bottom no-repeat #f8faff;
 	padding-left: 0;
+}
+.projectbanner7 {
+	background: url(../images/itversity-banner.png) right 124px no-repeat #32d2f5;
+	background-size: 35%;
 }
 .newproject .slide {
     padding-left: 0;
@@ -11559,6 +11592,10 @@ html{
 		margin-top: 40px;
 	}
 // new home page css
+.newhamburger .mainnav2 li {
+    display: inline-block;
+    border-right: 0px solid #eee;
+}
 .newpage1 .things {
     text-align: center;
 }
@@ -11898,10 +11935,11 @@ html{
 	font-size: 22px;
 }
 .projectbanner{
-	background: url(../images/project11.png) center center no-repeat #ff4c83;
+	background: #ff4c83;
 	background-size: 102%;
 	height:auto;
 	background-position: center 142px;
+	padding-top: 116px!important;
 }
 .projectbanner1 {
     background: url(../images/project3.png) center top 130px no-repeat #4527eb;
@@ -11912,7 +11950,7 @@ html{
 	font-size: 30px;
     line-height: 1.3;
     padding-top: 28vh;
-    padding-top: 311px;
+    padding-top: 20px;
 }
 .whatspl1 h2 a{
 	display: block;
@@ -12021,9 +12059,10 @@ html{
 .newhamburger .mainnav2 li a{
 	border-right:0px;
 	margin-bottom: 10px;
+	padding-right: 5px;
 }
 .newhamburger .mainnav2 li {
-    display:block;
+    // display:block;
 }
 .header-section{
 	position: relative;
@@ -12211,6 +12250,7 @@ html{
 }
 .footernew .socialmed a{
 	padding: 15px;
+	margin: 0 0px;
 }
 .newcpy ul {
     display: block;
@@ -13159,6 +13199,10 @@ html{
 .view-map .case-study .one{
 	vertical-align: middle;
 	margin-left: 15px;
+}
+.projectbanner7 {
+    background: #32d2f5;
+    background-size: 35%;
 }
 .project-section .works-wrapper .case-study{
     margin-top: 0px;
