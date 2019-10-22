@@ -8902,6 +8902,12 @@ html{
 	    padding-top: 3vh;
 	}
 }
+.internal-color{
+	color: blue;
+	&:hover{
+		color:blue;
+	}
+}
 .newhamburger{
 	hr{
 		margin-left: 27px;
