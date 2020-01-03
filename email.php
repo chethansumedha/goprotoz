@@ -33,7 +33,7 @@ $txtmessage .= "<p>".$message."</p></body></html>";
 
 
 
-$to = "ravindra@goprotoz.com, hello@goprotoz.com";
+$to = " hello@goprotoz.com";
 $subject = 'New lead from Goprotoz'; 
 $message = $txtmessage; 
 $fromname = "Goprotoz";
